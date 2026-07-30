@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+        <style>
+            body{
+            font-family: "Bubblegum Sans", sans-serif;
+
+            background-color: blue;
+            margin: 20px;
+            }
+            .soccerbox{
+                display: inline-flex;
+                text-align: center;
+                margin-left: -30px; /*moves closer to wall*/
+            }
+            .smallerbox{
+                margin: 15px; /*moves videos closer to each other*/
+                list-style-position: inside;
+            }
+            button{
+
+                background-color: rgb(90, 221, 238);
+
+                border-radius: 6px;
+
+            }
+            button:hover{
+                background-color: darkblue;
+
+                border: none;
+
+                border-radius: 6px;
+
+                color: white;
+
+                padding: 7px 15px
+                
+
+            }
+            button{
+                transition: 0.3s;
+            }
+            .buttonbox{
+                display: flex;
+                justify-content: center;
+            }
+            header, nav, article, section, aside, footer{
+                border: 5px solid black;
+                background: rgb(172, 3, 194);
+                padding: 15px;
+                margin: 15px 0;
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <table border="1">
+            
+            
+            <article>
+                <p>Messi's legendary free kick against liverpool</p>
+                <div class="soccerbox">
+                   <br>
+                    <div class="smallerbox">
+                     <video controls width = "412">
+                        <source src="messi.mp4" type="video/mp4">
+                    </video><br>
+                    <p>Top 5 players with the most free kick goals</p>
+                    <ol>
+            <li>Juninho Pernambucano: 77 free kick goals</li>
+            <li>Lionel Messi: 72 free kick goals</li>
+            <li>Pele: 70 free kick goals</li>
+            <li>Ronaldinho: 66 free kick goals</li>
+            <li>David Beckham: 65 free kick goals</li>
+        </ol>
+                    </div>
+                    <div class="smallerbox">
+                    <video controls width = "412">
+                        <source src="ankara.mp4" type="video/mp4">
+                    </video><br>
+                    <p>Top 5 players with the most goals per game</p>
+                    <ol>
+                       <li>Erling Haaland: 0.82 goals per game</li> 
+                       <li>Lionel Messi: 0.78 goals per game</li>
+                       <li>Cristiano Ronaldo: 0.73 goals per game</li>
+                       <li>Kylian Mbappe: 0.72 goals per game</li>
+                       <li>Luis Suarez: 0.56 goals per game</li>
+                    </ol>
+
+                     </div>
+                    <div class="smallerbox">
+                    <video controls width = "412">
+                        <source src="assist.mp4" type="video/mp4">
+                    </video><br>
+                    <p>Top 5 players with the most assists per game</p>
+                    <ol>
+                       <li>Kevin De Bruyne: 0.41 assists per game</li> 
+                       <li>Mesut Ozil: 0.39 assists per game</li>
+                       <li>Luis Suarez: 0.38 assists per game</li>
+                       <li>Lionel Messi: 0.36 assists per game</li>
+                       <li>Thomas Muller: 0.35 assists per game</li>
+                    </ol>
+                    </div>
+                </div>
+            </article>
+        <div class = "buttonbox">
+
+        <a href="https://www.uefa.com/uefachampionsleague/">
+            <button> 
+                 Champions League
+            </button>
+        </a>
+
+        </section>
+        <a href="https://www.premierleague.com">
+            <button> 
+                 Premier league
+            </button>
+        </a>
+
+        <a href="https://www.mlssoccer.com">
+            <button> 
+                 MLS 
+            </button>
+        </a>
+
+        <a href="https://www.laliga.com">
+            <button> 
+                 Laliga
+            </button>
+        </a>
+
+        <a href="https://www.bundesliga.com">
+            <button> 
+                 Bundesliga
+            </button>
+        </a>
+
+        <a href="https://www.legaseriea.it/serie-a">
+            <button> 
+                 Serie A
+            </button>
+        </a>
+        </div> 
+    
+        <audio controls>
+            <source src="waka.mp3">
+        </audio>
+        <audio controls>
+            <source src="wavin flag.mp3">
+        </audio>
+    </body>
+</html>
